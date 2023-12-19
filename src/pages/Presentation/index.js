@@ -83,7 +83,7 @@ function Presentation() {
                 },
               })}
             >
-              Testing this temlate{" "}
+              Testing this template{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
