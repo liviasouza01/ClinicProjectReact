@@ -14,6 +14,16 @@ import MKTypography from "components/MKTypography";
 import profile from "assets/images/guilherme.jpg";
 
 function Profile() {
+  const longText = `
+    Nasci no interior de Pernambuco, numa cidade chamada Pedra. Lá, tive meu primeiro contato com a Medicina,
+    através do meu pai Ezequiel Braz. Desde então soube que queria ser médico. Não um simples médico, um conforto
+    para aqueles que precisam.
+
+    Me formei na UFPE, me tornei Cirurgião geral e após vários anos dando plantão, migrei para a área da Endoscopia/Colonoscopia.
+    Enfim pude conciliar qualidade de vida com a minha profissão que tanto amo.
+    Ser Médico é servir ao próximo. E assim mantenho meu juramento até hoje, tratando meus pacientes com amor, atenção,
+    e cuidado.
+  `;
   return (
     <MKBox component="section" py={{ xs: 6, sm: 12 }}>
       <Container>
@@ -53,7 +63,7 @@ function Profile() {
                 </Grid>
               </Grid>
               <MKTypography variant="body1" fontWeight="light" color="text">
-                Nasci no interior de Pernambuco, numa cidade chamada Pedra.... <br />
+                {longText} <br />
               </MKTypography>
             </Grid>
           </Grid>
