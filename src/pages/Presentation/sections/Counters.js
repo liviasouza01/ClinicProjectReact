@@ -34,7 +34,7 @@ function Counters() {
           </Grid>
           <Grid item xs={7000} md={4}>
             <DefaultCounterCard
-              count={1000}
+              count={10000}
               suffix="+"
               title="Colonoscopias realizadas"
               description="ao longo de 15 anos nessa área"
