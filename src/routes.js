@@ -55,32 +55,6 @@ const routes = [
     ],
   },
   {
-    name: "docs",
-    icon: <Icon>article</Icon>,
-    collapse: [
-      {
-        name: "endoscopia",
-        description: "Instruções e preparo para o exame",
-        href: "https://www.instagram.com/dr.guilhermebraz",
-      },
-      {
-        name: "Colonoscopia",
-        description: "Instruções e preparo para o exame",
-        href: "https://www.instagram.com/dr.guilhermebraz",
-      },
-      {
-        name: "termo de consentimento de exames",
-        description: "Explore our collection of fully designed components",
-        href: "https://www.instagram.com/dr.guilhermebraz",
-      },
-      {
-        name: "Teste de H2 expirado",
-        description: "Instruções e preparo para o exame",
-        href: "https://www.instagram.com/dr.guilhermebraz",
-      },
-    ],
-  },
-  {
     name: "instagram",
     icon: <GitHubIcon />,
     href: "https://www.instagram.com/dr.guilhermebraz",
