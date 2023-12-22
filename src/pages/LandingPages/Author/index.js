@@ -24,15 +24,15 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Author page sections
 import Profile from "pages/LandingPages/Author/sections/Profile";
-import Posts from "pages/LandingPages/Author/sections/Posts";
-import Contact from "pages/LandingPages/Author/sections/Contact";
+//import Posts from "pages/LandingPages/Author/sections/Posts";
+//import Contact from "pages/LandingPages/Author/sections/Contact";
 import Footer from "pages/LandingPages/Author/sections/Footer";
 
 // Routes
 import routes from "routes";
 
 // Images
-import bgImage from "assets/images/city-profile.jpg";
+import bgImage from "assets/images/pedra.jpg";
 
 function Author() {
   return (
@@ -50,7 +50,7 @@ function Author() {
       />
       <MKBox bgColor="white">
         <MKBox
-          minHeight="25rem"
+          minHeight="38rem"
           width="100%"
           sx={{
             backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
@@ -76,9 +76,7 @@ function Author() {
           }}
         >
           <Profile />
-          <Posts />
         </Card>
-        <Contact />
         <Footer />
       </MKBox>
     </>
