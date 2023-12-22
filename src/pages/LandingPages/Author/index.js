@@ -41,8 +41,8 @@ function Author() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "https://app.simdoctor.com.br/clinicabraz/",
+          label: "Marque sua consulta",
           color: "info",
         }}
         transparent

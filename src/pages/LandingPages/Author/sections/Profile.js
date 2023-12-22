@@ -53,7 +53,7 @@ function Profile() {
                 </Grid>
               </Grid>
               <MKTypography variant="body1" fontWeight="light" color="text">
-                Conte um pouco da sua história pessoal <br />
+                Nasci no interior de Pernambuco, numa cidade chamada Pedra.... <br />
               </MKTypography>
             </Grid>
           </Grid>
