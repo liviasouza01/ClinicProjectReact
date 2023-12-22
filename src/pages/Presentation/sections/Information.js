@@ -49,14 +49,14 @@ function Information() {
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="content_copy"
+                  icon=""
                   title="Consulta com Gastro"
                   description="Consulta humanizada, com 1h de atendimento e tratamento assertivo"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="flip_to_front"
+                  icon=""
                   title="Endoscopia"
                   description="Realizada sob sedação com equipamento de ultima geração"
                 />
@@ -65,14 +65,14 @@ function Information() {
             <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="price_change"
+                  icon="medical"
                   title="Colonoscopia"
                   description="Realizada sob sedação, sem dor, com equipamento de última geração"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="devices"
+                  icon="air"
                   title="Testes respiratórios"
                   description="Testes respiratórios para SIBO, intolerância a lactose e frutose"
                 />
